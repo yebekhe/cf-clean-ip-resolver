@@ -1,0 +1,22 @@
+name: "Collect IPs"
+
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Install PHP
+      run: sudo apt-get update && sudo apt-get install -y php
+      
+    - name: Run PHP script
+      run: php index.php
