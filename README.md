@@ -20,4 +20,6 @@
 - [jangal.icu](jangal.icu)
 - [nvsnm.com](nvsnm.com)
 - [kojachera.cf](kojachera.cf)
+- [myips.us.eu.org](myips.us.eu.org)
+- [filna.cloud](filna.cloud)
 
